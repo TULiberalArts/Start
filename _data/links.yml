@@ -51,9 +51,9 @@
 - name: Liberal Arts
   description: 'liberal arts website'
   image_path: img/liberalarts.png
-  uri: "#"
+  uri: "https://liberalarts.temple.edu"
 
 - name: Temple University
   description: 'temple university website'
   image_path: img/temple.png
-  uri: "#"
+  uri: "https://www.temple.edu"
