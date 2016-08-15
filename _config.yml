@@ -1,0 +1,17 @@
+url:
+baseurl:
+
+# Site settings
+app-title: TU Start
+title: College of Liberal Arts
+title-link: https://liberalarts.temple.edu
+description: ''
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,0 +1,59 @@
+- name: TUmail
+  description: 'university email on the web'
+  image_path: img/tumail.png
+  uri: "https://tumail.temple.edu"
+
+- name: TUportal
+  description: 'university resource portal'
+  image_path: img/tuportal.png
+  uri: "https://tuportal.temple.edu"
+
+- name: Blackboard
+  description: 'access course content and more'
+  image_path: img/blackboard.png
+  uri: https://learn.temple.edu
+
+- name: TUsecure
+  description: 'university account management'
+  image_path: img/tusecure.png
+  uri: "https://accounts.temple.edu"
+
+- name: TUhelp
+  description: 'submit and track support requests'
+  image_path: img/tuhelp.png
+  uri: "https://tuhelp.temple.edu"
+
+- name: Cherry & White Directory
+  description: 'student, faculty, & staff directory.'
+  image_path: img/directory.png
+  uri: "https://directory.temple.edu"
+
+- name: Paley Library
+  description: 'search the diamond catalog'
+  image_path: img/library.png
+  uri: https://library.temple.edu
+
+- name: OWLbox
+  description: 'save and share files'
+  image_path: img/owlbox.png
+  uri: "https://owlbox.temple.edu"
+
+- name: Diamond Dollars
+  description: 'remote application access'
+  image_path: img/diamonddollars.png
+  uri: "http://www.temple.edu/diamonddollars/"
+
+- name: TUapps
+  description: 'remote application access'
+  image_path: img/tuapps.png
+  uri: "https://tuapps.temple.edu"
+
+- name: Liberal Arts
+  description: 'liberal arts website'
+  image_path: img/liberalarts.png
+  uri: "#"
+
+- name: Temple University
+  description: 'temple university website'
+  image_path: img/temple.png
+  uri: "#"

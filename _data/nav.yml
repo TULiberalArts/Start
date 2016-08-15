@@ -1,0 +1,14 @@
+- name: Maps
+  uri: "http://www.temple.edu/maps-and-directions"
+
+- name: Admissions
+  uri: "http://temple.edu/admissions"
+
+- name: Donate
+  uri: "http://www.giving.temple.edu/"
+
+- name: Alumni
+  uri: "http://www.alumni.temple.edu/"
+
+- name: TUportal
+  uri: "https://tuportal.temple.edu"
