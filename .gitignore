@@ -1,12 +1,18 @@
-_site
-.sass-cache
-.vscode
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-metadata
 
-# Windows image file caches
+# Ruby
+Gemfile.lock
+
+# Editors
+.vscode
+.sublime-workspace
+
+# Windows
 Thumbs.db
 ehthumbs.db
-
-# Folder config file
 Desktop.ini
 
 # Recycle Bin used on file shares
@@ -18,13 +24,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -37,3 +37,11 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
