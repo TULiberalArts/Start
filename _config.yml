@@ -13,4 +13,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Travis bundles all gems in the vendor directory
+# Jekyll will mistakenly read this and fail.
 exclude: [vendor]
