@@ -19,7 +19,7 @@
   uri: "https://accounts.temple.edu"
 
 - name: TUhelp
-  description: 'submit and track support requests'
+  description: 'submit support requests'
   image_path: img/tuhelp.png
   uri: "https://tuhelp.temple.edu"
 
