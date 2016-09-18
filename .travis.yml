@@ -2,10 +2,15 @@ language: ruby
 rvm:
 - 2.1
 
-before_script:
- - chmod +x ./script/cibuild
+# install jekyll from gemfile
+install: 
+   - bundle install
+   - rake
+   - chmod +x ./script/build.sh
+   - ./script/build.sh
 
-script: ./script/cibuild
+# build site
+scripts: true
 
 env:
   global:
