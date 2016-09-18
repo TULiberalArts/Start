@@ -5,7 +5,7 @@ rvm:
 # install jekyll from gemfile
 install: 
    - bundle install
-   - rake
+   - rake test
    - chmod +x ./script/build.sh
    - ./script/build.sh
 
