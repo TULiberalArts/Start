@@ -6,8 +6,8 @@ rvm:
 install: 
    - bundle install
    - rake
-   - chmod +x ./script/build.sh
-   - ./script/build.sh
+   - chmod +x ./scripts/build.sh
+   - ./scripts/build.sh
 
 # build site
 scripts: true
