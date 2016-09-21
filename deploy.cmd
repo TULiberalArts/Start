@@ -49,7 +49,7 @@ IF NOT DEFINED KUDU_SYNC_CMD (
 )
 ECHO CALLING GET RUBY
 
-call :ExecuteCmd "scripts/getruby.cmd"
+call :ExecuteCmd "getruby.cmd"
 
 ECHO WE MADE IT
 
