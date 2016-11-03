@@ -9,6 +9,3 @@
 
 - name: Alumni
   uri: "http://www.alumni.temple.edu/"
-
-- name: TUportal
-  uri: "https://tuportal.temple.edu"
