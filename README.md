@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/tucla/liberal-arts-start.svg?branch=master)](https://travis-ci.org/tucla/liberal-arts-start)
-
 # Liberal Arts Start
+
+[![Build Status][travis-ci-img]][travis-ci]
 
 Liberal Arts Start is a browser default start page based upon on the [Agency][agency] theme created by [Start Bootstrap][startbootstrap].
 
@@ -23,6 +23,9 @@ Liberal Arts Start was created and is maintained by [Lido Paglia][lidopaglia].
 
 Copyright 2016 Lido Paglia. Code released under the [MIT license][license].
 
+[start]: https://www.cla.temple.edu/start
+[travis-ci]: https://travis-ci.org/tuliberalarts/start
+[travis-ci-img]: https://travis-ci.org/tuliberalarts/start.svg?branch=master
 [agency]: http://startbootstrap.com/template-overviews/agency/
 [startbootstrap]: http://startbootstrap.com/
 [issue]: https://github.com/lpaglia/liberal-arts-start/issues
