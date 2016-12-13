@@ -1,6 +1,6 @@
-# Liberal Arts Start
-
 [![Build Status](https://travis-ci.org/tucla/liberal-arts-start.svg?branch=master)](https://travis-ci.org/tucla/liberal-arts-start)
+
+# Liberal Arts Start
 
 Liberal Arts Start is a browser default start page based upon on the [Agency][agency] theme created by [Start Bootstrap][startbootstrap].
 
