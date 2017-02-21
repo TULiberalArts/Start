@@ -39,7 +39,7 @@
   uri: "https://owlbox.temple.edu"
 
 - name: Diamond Dollars
-  description: 'remote application access'
+  description: 'access Diamond Dollars account'
   image_path: img/diamonddollars.png
   uri: "http://www.temple.edu/diamonddollars/"
 
