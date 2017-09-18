@@ -8,52 +8,67 @@
   image_path: img/tuportal.png
   uri: "https://tuportal.temple.edu"
 
-- name: Blackboard
-  description: 'access course content and more'
-  image_path: img/blackboard.png
-  uri: https://learn.temple.edu
-
-- name: TUsecure
-  description: 'university account management'
-  image_path: img/tusecure.png
-  uri: "https://accounts.temple.edu"
-
 - name: TUhelp
-  description: 'submit support requests'
+  description: 'submit & track support requests'
   image_path: img/tuhelp.png
   uri: "https://tuhelp.temple.edu"
 
-- name: Cherry & White Directory
-  description: 'student, faculty, & staff directory.'
-  image_path: img/directory.png
-  uri: "https://directory.temple.edu"
+- name: Blackboard
+  description: 'course content and more'
+  image_path: img/blackboard-new.png
+  uri: "https://learn.temple.edu"
+
+- name: Canvas
+  description: 'course content and more'
+  image_path: img/canvas-new.png
+  uri: "https://canvas.temple.edu"
 
 - name: Paley Library
-  description: 'search the diamond catalog'
-  image_path: img/library.png
-  uri: https://library.temple.edu
+  description: 'university library resources'
+  image_path: img/library-new.png
+  uri: "https://library.temple.edu"
 
 - name: OWLbox
   description: 'save and share files'
-  image_path: img/owlbox.png
+  image_path: img/owlbox-new.png
   uri: "https://owlbox.temple.edu"
 
+- name: Google Drive
+  description: 'save and share files'
+  image_path: img/drive-new.png
+  uri: "http://drive.google.com/a/temple.edu/"
+
+- name: Office365
+  description: 'save and share files'
+  image_path: img/office365-new.png
+  uri: "https://login.microsoftonline.com"
+
+- name: TUsecure
+  description: 'university account management'
+  image_path: img/tusecure-new.png
+  uri: "https://accounts.temple.edu"
+
+- name: Cherry & White Directory
+  description: 'student, faculty, & staff directory'
+  image_path: img/directory-new.png
+  uri: "https://directory.temple.edu"
+
 - name: Diamond Dollars
-  description: 'access Diamond Dollars account'
-  image_path: img/diamonddollars.png
+  description: 'make purchases with your OWLcard'
+  image_path: img/diamonddollars-new.png
   uri: "http://www.temple.edu/diamonddollars/"
+
+- name: Sites
+  description: 'university web hosting'
+  image_path: img/sites-new.png
+  uri: "https://sites.temple.edu"
 
 - name: TUapps
   description: 'remote application access'
-  image_path: img/tuapps.png
-  uri: "https://tuapps.temple.edu"
-
-- name: Liberal Arts
-  description: 'liberal arts website'
-  image_path: img/liberalarts.png
-  uri: "https://liberalarts.temple.edu"
+  image_path: img/remote.png
+  uri: "https://remote.temple.edu"
 
 - name: Temple University
-  description: 'temple university website'
-  image_path: img/temple.png
+  description: 'explore temple'
+  image_path: img/temple-new.png
   uri: "https://www.temple.edu"
