@@ -15,52 +15,52 @@
 
 - name: Blackboard
   description: 'course content and more'
-  image_path: img/blackboard-new.png
+  image_path: img/blackboard.png
   uri: "https://learn.temple.edu"
 
 - name: Canvas
   description: 'course content and more'
-  image_path: img/canvas-new.png
+  image_path: img/canvas.png
   uri: "https://canvas.temple.edu"
 
 - name: Paley Library
   description: 'university library resources'
-  image_path: img/library-new.png
+  image_path: img/library.png
   uri: "https://library.temple.edu"
 
 - name: OWLbox
   description: 'save and share files'
-  image_path: img/owlbox-new.png
+  image_path: img/owlbox.png
   uri: "https://owlbox.temple.edu"
 
 - name: Google Drive
   description: 'save and share files'
-  image_path: img/drive-new.png
+  image_path: img/drive.png
   uri: "http://drive.google.com/a/temple.edu/"
 
 - name: Office365
   description: 'save and share files'
-  image_path: img/office365-new.png
+  image_path: img/office365.png
   uri: "https://login.microsoftonline.com"
 
 - name: TUsecure
   description: 'university account management'
-  image_path: img/tusecure-new.png
+  image_path: img/tusecure.png
   uri: "https://accounts.temple.edu"
 
 - name: Cherry & White Directory
   description: 'student, faculty, & staff directory'
-  image_path: img/directory-new.png
+  image_path: img/directory.png
   uri: "https://directory.temple.edu"
 
 - name: Diamond Dollars
   description: 'make purchases with your OWLcard'
-  image_path: img/diamonddollars-new.png
+  image_path: img/diamonddollars.png
   uri: "http://www.temple.edu/diamonddollars/"
 
 - name: Sites
   description: 'university web hosting'
-  image_path: img/sites-new.png
+  image_path: img/sites.png
   uri: "https://sites.temple.edu"
 
 - name: TUapps
@@ -70,5 +70,5 @@
 
 - name: Temple University
   description: 'explore temple'
-  image_path: img/temple-new.png
+  image_path: img/temple.png
   uri: "https://www.temple.edu"
