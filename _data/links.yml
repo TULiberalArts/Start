@@ -1,10 +1,10 @@
 - name: TUmail
-  description: 'university email on the web'
+  description: 'University email on the web'
   image_path: img/tumail.png
   uri: "https://tumail.temple.edu"
 
 - name: TUportal
-  description: 'university resource portal'
+  description: 'University resource portal'
   image_path: img/tuportal.png
   uri: "https://tuportal.temple.edu"
 
@@ -24,7 +24,7 @@
   uri: "https://canvas.temple.edu"
 
 - name: Paley Library
-  description: 'university library resources'
+  description: 'University library resources'
   image_path: img/library.png
   uri: "https://library.temple.edu"
 
@@ -44,7 +44,7 @@
   uri: "https://login.microsoftonline.com"
 
 - name: TUsecure
-  description: 'university account management'
+  description: 'University account management'
   image_path: img/tusecure.png
   uri: "https://accounts.temple.edu"
 
@@ -54,12 +54,12 @@
   uri: "https://directory.temple.edu"
 
 - name: Diamond Dollars
-  description: 'make purchases with your OWLcard'
+  description: 'manage OWLcard balances'
   image_path: img/diamonddollars.png
   uri: "http://www.temple.edu/diamonddollars/"
 
 - name: Sites
-  description: 'university web hosting'
+  description: 'University web hosting'
   image_path: img/sites.png
   uri: "https://sites.temple.edu"
 
@@ -69,6 +69,6 @@
   uri: "https://remote.temple.edu"
 
 - name: Temple University
-  description: 'explore temple'
+  description: 'explore Temple'
   image_path: img/temple.png
   uri: "https://www.temple.edu"
