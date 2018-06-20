@@ -13,11 +13,6 @@
   image_path: img/tuhelp.png
   uri: "https://tuhelp.temple.edu"
 
-- name: Blackboard
-  description: 'course content and more'
-  image_path: img/blackboard.png
-  uri: "https://learn.temple.edu"
-
 - name: Canvas
   description: 'course content and more'
   image_path: img/canvas.png
