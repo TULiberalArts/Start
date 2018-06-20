@@ -23,6 +23,11 @@
   image_path: img/library.png
   uri: "https://library.temple.edu"
 
+- name: Sites
+  description: 'University web hosting'
+  image_path: img/sites.png
+  uri: "https://sites.temple.edu"
+
 - name: OWLbox
   description: 'save and share files'
   image_path: img/owlbox.png
@@ -52,11 +57,6 @@
   description: 'manage OWLcard balances'
   image_path: img/diamonddollars.png
   uri: "http://www.temple.edu/diamonddollars/"
-
-- name: Sites
-  description: 'University web hosting'
-  image_path: img/sites.png
-  uri: "https://sites.temple.edu"
 
 - name: TUapps
   description: 'remote application access'
