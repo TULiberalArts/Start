@@ -10,7 +10,7 @@ Find a bug or issue with this site? [Open a new issue][issue] here on GitHub.
 
 ## Creator
 
-Liberal Arts Start was created and is maintained by [Lido Paglia][https://github.com/lidopaglia].
+Liberal Arts Start was created and is maintained by [Lido Paglia](https://github.com/lidopaglia).
 
 [Start Bootstrap][startbootstrap] is based on the [Bootstrap][getbootstrap] framework created by [Mark Otto][mdo] and [Jacob Thorton][fat]. Agency was created and is maintained by [David Miller][davidmiller].
 
