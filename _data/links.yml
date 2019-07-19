@@ -63,6 +63,11 @@
   image_path: img/remote.png
   uri: "https://remote.temple.edu"
 
+- name: Zoom
+  description: 'web conferencing software'
+  image_path: img/zoom.png
+  uri: "https://temple.zoom.us"
+
 - name: Temple University
   description: 'explore Temple'
   image_path: img/temple.png
