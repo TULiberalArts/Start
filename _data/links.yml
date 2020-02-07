@@ -18,8 +18,8 @@
   image_path: img/canvas.png
   uri: "https://canvas.temple.edu"
 
-- name: Paley Library
-  description: 'University library resources'
+- name: University Libraries
+  description: 'Search library resources'
   image_path: img/library.png
   uri: "https://library.temple.edu"
 
