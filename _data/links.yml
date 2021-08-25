@@ -18,30 +18,40 @@
   image_path: img/canvas.png
   uri: "https://canvas.temple.edu"
 
-- name: University Libraries
-  description: 'Search library resources'
-  image_path: img/library.png
-  uri: "https://library.temple.edu"
-
-- name: Sites
-  description: 'University web hosting'
-  image_path: img/sites.png
-  uri: "https://sites.temple.edu"
-
-- name: OWLbox
+- name: OneDrive
   description: 'save and share files'
-  image_path: img/owlbox.png
-  uri: "https://owlbox.temple.edu"
+  image_path: img/onedrive.png
+  uri: "https://tuprd-my.sharepoint.com/"
 
 - name: Google Drive
   description: 'save and share files'
   image_path: img/drive.png
   uri: "http://drive.google.com/a/temple.edu/"
 
-- name: Office365
-  description: 'save and share files'
-  image_path: img/office365.png
-  uri: "https://login.microsoftonline.com"
+- name: Sites
+  description: 'University web hosting'
+  image_path: img/sites.png
+  uri: "https://sites.temple.edu"
+
+- name: OWLab
+  description: 'TECHcenter Cloud'
+  image_path: img/owlab.png
+  uri: "https://owlab.temple.edu"
+
+- name: Zoom
+  description: 'web conferencing software'
+  image_path: img/zoom.png
+  uri: "https://temple.zoom.us"
+
+- name: TUapps
+  description: 'remote application access'
+  image_path: img/remote.png
+  uri: "https://remote.temple.edu"
+
+- name: University Libraries
+  description: 'Search library resources'
+  image_path: img/library.png
+  uri: "https://library.temple.edu"
 
 - name: TUsecure
   description: 'University account management'
@@ -57,16 +67,6 @@
   description: 'manage OWLcard balances'
   image_path: img/diamonddollars.png
   uri: "http://www.temple.edu/diamonddollars/"
-
-- name: TUapps
-  description: 'remote application access'
-  image_path: img/remote.png
-  uri: "https://remote.temple.edu"
-
-- name: Zoom
-  description: 'web conferencing software'
-  image_path: img/zoom.png
-  uri: "https://temple.zoom.us"
 
 - name: Temple University
   description: 'explore Temple'
