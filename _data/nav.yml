@@ -4,8 +4,11 @@
 - name: Admissions
   uri: "http://temple.edu/admissions"
 
-- name: Donate
+- name: Giving
   uri: "http://www.giving.temple.edu/"
 
 - name: Alumni
   uri: "http://www.alumni.temple.edu/"
+
+- name: Temple.edu
+  uri: "http://www.temple.edu/"

@@ -23,38 +23,18 @@
   image_path: img/onedrive.png
   uri: "https://tuprd-my.sharepoint.com/"
 
-- name: Google Drive
-  description: 'save and share files'
-  image_path: img/drive.png
-  uri: "http://drive.google.com/a/temple.edu/"
-
-- name: Sites
-  description: 'University web hosting'
-  image_path: img/sites.png
-  uri: "https://sites.temple.edu"
-
-- name: OWLab
-  description: 'TECHcenter Cloud'
-  image_path: img/owlab.png
-  uri: "https://owlab.temple.edu"
-
 - name: Zoom
   description: 'web conferencing software'
   image_path: img/zoom.png
   uri: "https://temple.zoom.us"
-
-- name: TUapps
-  description: 'remote application access'
-  image_path: img/remote.png
-  uri: "https://remote.temple.edu"
 
 - name: University Libraries
   description: 'Search library resources'
   image_path: img/library.png
   uri: "https://library.temple.edu"
 
-- name: TUsecure
-  description: 'University account management'
+- name: Account Management
+  description: 'password and account management'
   image_path: img/tusecure.png
   uri: "https://accounts.temple.edu"
 
@@ -62,13 +42,3 @@
   description: 'student, faculty, & staff directory'
   image_path: img/directory.png
   uri: "https://directory.temple.edu"
-
-- name: Diamond Dollars
-  description: 'manage OWLcard balances'
-  image_path: img/diamonddollars.png
-  uri: "http://www.temple.edu/diamonddollars/"
-
-- name: Temple University
-  description: 'explore Temple'
-  image_path: img/temple.png
-  uri: "https://www.temple.edu"
