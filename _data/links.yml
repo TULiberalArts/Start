@@ -14,12 +14,12 @@
   uri: "https://tuhelp.temple.edu"
 
 - name: Canvas
-  description: 'course content and more'
+  description: 'course content & more'
   image_path: img/canvas.png
   uri: "https://canvas.temple.edu"
 
 - name: OneDrive
-  description: 'save and share files'
+  description: 'save & share files'
   image_path: img/onedrive.png
   uri: "https://tuprd-my.sharepoint.com/"
 
@@ -29,12 +29,12 @@
   uri: "https://temple.zoom.us"
 
 - name: University Libraries
-  description: 'Search library resources'
+  description: 'search library resources'
   image_path: img/library.png
   uri: "https://library.temple.edu"
 
 - name: Account Management
-  description: 'password and account management'
+  description: 'password & account management'
   image_path: img/tusecure.png
   uri: "https://accounts.temple.edu"
 
