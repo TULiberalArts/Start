@@ -1,7 +1,525 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<section id="portfolio" class="bg-light-gray">
-  {% include portfolio_grid.html %}
-</section>
+<meta charset="UTF-8">
+<meta name="description" content="College of Liberal Arts">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+
+<title>College of Liberal Arts | Temple University</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<link rel="manifest" href="site.webmanifest">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+>
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="College of Liberal Arts Start">
+<meta property="og:description" content="A start page for the College of Liberal Arts">
+<meta property="og:url" content="https://cla.temple.edu/start">
+<meta property="og:image" content="https://cla.temple.edu/assets/social-preview.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="College of Liberal Arts start page preview">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="College of Liberal Arts Start">
+<meta name="twitter:description" content="A start page for the College of Liberal Arts">
+<meta name="twitter:image" content="https://cla.temple.edu/start/assets/social-preview.webp">
+
+
+<style>
+:root {
+    color-scheme: light dark;
+
+    --temple-red: #a41e35;
+    --egg-shell: #f2eee8;
+
+    --text: #292929;
+    --glass: rgba(255, 255, 255, 0.78);
+    --glass-hover: rgba(164, 30, 53, 0.12);
+    --border: rgba(0, 0, 0, 0.14);
+    --muted: rgba(0, 0, 0, 0.65);
+    --overlay: rgba(255, 255, 255, 0.55);
+    --divider: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #fff;
+        --glass: rgba(20, 20, 24, 0.58);
+        --glass-hover: rgba(164, 30, 53, 0.85);
+        --border: rgba(255, 255, 255, 0.16);
+        --muted: rgba(255, 255, 255, 0.8);
+        --overlay: rgba(0, 0, 0, 0.7);
+        --divider: rgba(255, 255, 255, 0.45);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -20px;
+    z-index: -2;
+    background: url("assets/bg.webp") center / cover no-repeat;
+    filter: blur(10px);
+    transform: scale(1.03);
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: var(--overlay);
+}
+
+.container {
+    width: min(1100px, calc(100% - 48px));
+    margin: 0 auto;
+}
+
+header {
+    padding: 32px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.brand {
+    flex-shrink: 0;
+}
+
+.brand-home {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.brand-logo {
+    display: block;
+    height: 52px;
+    width: auto;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+    text-decoration-color: var(--temple-red);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.5rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 4vh;
+    margin: 0 auto;
+}
+
+main > .container {
+    max-width: 850px;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.app-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    min-height: 145px;
+    padding: 24px 16px;
+    color: var(--text);
+    text-decoration: none;
+    text-align: center;
+    background: var(--glass);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.app-tile:hover {
+    background: var(--glass-hover);
+    border-color: white;
+    transform: translateY(-4px);
+}
+
+.app-icon {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.app-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 0.75rem;
+    /*color: rgba(255, 255, 255, 0.8);*/
+    color: rgb(from var(--text) r g b / 80%);
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    text-underline-offset: 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+
+.callouts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin: 0 auto 22px;
+}
+
+.callout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 24px;
+    color: var(--text);
+    text-decoration: none;
+    background: var(--glass);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--temple-red);
+    border-radius: 8px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: background 0.2s ease;
+}
+
+a.callout:hover {
+    background: var(--glass-hover);
+}
+
+.callout-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.callout-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.callout-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.callout-description {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.callout-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background: var(--glass);
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+a.callout-action {
+    text-decoration: none;
+    color: var(--text);
+}
+a.callout-action:hover {
+    background: var(--temple-red);
+    border-color: white;
+    color: white;
+}
+
+.callout[hidden] {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .header-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .app-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .callout {
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .callout-action {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .site-title {
+        font-size: 1.2rem;
+    }
+
+    .app-tile {
+        min-height: 120px;
+    }
+
+    .app-icon {
+        font-size: 1.6rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container header-content">
+
+        <div class="brand">
+            <a href="https://liberalarts.temple.edu"
+               class="brand-home"
+               aria-label="College of Liberal Arts, Temple University - Home"
+            >
+                <img src="assets/temple-t.svg"
+                     alt="Temple University"
+                     class="brand-logo"
+                >
+                <span class="site-title">
+                    College of Liberal Arts
+                </span>
+            </a>
+        </div>
+
+        <nav aria-label="University navigation">
+            <a href="#">Maps</a>
+            <a href="#">Admissions</a>
+            <a href="#">Giving</a>
+            <a href="#">Alumni</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <section class="callouts">
+
+            <!-- Seasonal announcement: hidden by default -->
+            <div class="callout" id="announcement" >
+
+                <div class="callout-content">
+                    <span class="callout-icon">📢</span>
+
+                    <div>
+                        <div class="callout-title">
+                            Student Feedback Forms
+                        </div>
+                        <div class="callout-description">
+                            Your feedback improves teaching, enhances future classes, and drives real change.
+                        </div>
+                    </div>
+                </div>
+
+                <a class="callout-action"
+                   href="https://sff.temple.edu/" >
+                    Submit Feedback
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+
+            </div>
+
+            <!-- Always-visible events callout -->
+            <div class="callout" hidden>
+
+                <div class="callout-content">
+                    <span class="callout-icon">📅</span>
+
+                    <div>
+                        <div class="callout-title">
+                            Upcoming Events
+                        </div>
+                        <div class="callout-description">
+                            Explore upcoming lectures, events,
+                            and activities.
+                        </div>
+                    </div>
+                </div>
+
+                <a class="callout-action"
+                   href="https://liberalarts.temple.edu/events" >
+                    View Events
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="app-grid">
+
+            <a class="app-tile" href="https://outlook.cloud.microsoft">
+                <i class="app-icon fa-solid fa-envelope"></i>
+                <span class="app-name">TUmail</span>
+            </a>
+
+            <a class="app-tile" href="https://tuportal.temple.edu">
+                <i class="app-icon fa-regular fa-window-restore"></i>
+                <span class="app-name">TUportal</span>
+            </a>
+
+            <a class="app-tile" href="https://tuhelp.temple.edu">
+                <i class="app-icon fa-solid fa-circle-question"></i>
+                <span class="app-name">TUhelp</span>
+            </a>
+
+            <a class="app-tile" href="https://accounts.temple.edu">
+                <i class="app-icon fa-solid fa-user-lock"></i>
+                <span class="app-name">Account Management</span>
+            </a>
+
+            <a class="app-tile" href="https://canvas.temple.edu">
+                <i class="app-icon fa-solid fa-book-open-reader"></i>
+                <span class="app-name">Canvas</span>
+            </a>
+
+            <a class="app-tile" href="https://tuprd-my.sharepoint.com">
+                <i class="app-icon fa-solid fa-cloud-arrow-up"></i>
+                <span class="app-name">OneDrive</span>
+            </a>
+
+            <a class="app-tile" href="https://teams.cloud.microsoft">
+                <i class="app-icon fa-solid fa-user-group"></i>
+                <span class="app-name">Teams</span>
+            </a>
+
+            <a class="app-tile" href="https://library.temple.edu">
+                <i class="app-icon fa-solid fa-book-open"></i>
+                <span class="app-name">University Libraries</span>
+            </a>
+
+            <a class="app-tile" href="https://portal.office.com">
+                <i class="app-icon fa-brands fa-microsoft"></i>
+                <span class="app-name">Microsoft 365</span>
+            </a>
+
+            <a class="app-tile" href="https://www.google.com/a/temple.edu/ServiceLogin?continue=https://workspace.google.com/dashboard">
+                <i class="app-icon fa-brands fa-google"></i>
+                <span class="app-name">Google Apps</span>
+            </a>
+
+            <a class="app-tile" href="https://temple.zoom.com">
+                <i class="app-icon fa-solid fa-video"></i>
+                <span class="app-name">Zoom</span>
+            </a>
+
+            <a class="app-tile" href="https://tuportal6.temple.edu/group/home/directory">
+                <i class="app-icon fa-solid fa-address-book"></i>
+                <span class="app-name">Cherry & White</span>
+            </a>
+
+        </section>
+    </div>
+</main>
+
+<footer>
+    <a href="https://liberalarts.temple.edu">College of Liberal Arts</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://temple.edu">Temple University</a>
+</footer>
+
+</body>
+</html>
